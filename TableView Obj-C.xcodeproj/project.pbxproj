@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		520BEF1D2089461E004A889F /* Course.m in Sources */ = {isa = PBXBuildFile; fileRef = 520BEF1C2089461E004A889F /* Course.m */; };
 		526A74062088E1E7005C1E2C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 526A74052088E1E7005C1E2C /* AppDelegate.m */; };
 		526A74092088E1E7005C1E2C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 526A74082088E1E7005C1E2C /* ViewController.m */; };
 		526A740C2088E1E7005C1E2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 526A740A2088E1E7005C1E2C /* Main.storyboard */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		520BEF1B2089461E004A889F /* Course.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Course.h; sourceTree = "<group>"; };
+		520BEF1C2089461E004A889F /* Course.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Course.m; sourceTree = "<group>"; };
 		526A74012088E1E7005C1E2C /* TableView Obj-C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TableView Obj-C.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		526A74042088E1E7005C1E2C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		526A74052088E1E7005C1E2C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -67,6 +70,8 @@
 				526A740F2088E1E8005C1E2C /* LaunchScreen.storyboard */,
 				526A74122088E1E8005C1E2C /* Info.plist */,
 				526A74132088E1E8005C1E2C /* main.m */,
+				520BEF1B2089461E004A889F /* Course.h */,
+				520BEF1C2089461E004A889F /* Course.m */,
 			);
 			path = "TableView Obj-C";
 			sourceTree = "<group>";
@@ -141,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				520BEF1D2089461E004A889F /* Course.m in Sources */,
 				526A74092088E1E7005C1E2C /* ViewController.m in Sources */,
 				526A74142088E1E8005C1E2C /* main.m in Sources */,
 				526A74062088E1E7005C1E2C /* AppDelegate.m in Sources */,
